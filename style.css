@@ -11,13 +11,12 @@ body{
     padding:0 250px;
     color: white;
     background-color:#1F2937;
-    padding-bottom: 75px;
+    padding-bottom: 25px;
 }
 .topheader{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 100px;
 }
 .logo{
     font-size: 24px;
@@ -35,7 +34,10 @@ a{
 }
 .bottomheader{
     display:flex;
+    height: 50vh;
+    align-items: center;
 }
+
 .lheader{
     display:flex;
     flex-direction: column;
@@ -62,8 +64,14 @@ a{
 }
 .rheader{
     flex:1;
+    display:flex;
 }
 
+.rheader img{
+flex: 1;
+max-width: 80%;
+margin-left: auto;
+}
 .content{
     display:flex;
     flex-direction: column;
@@ -79,7 +87,7 @@ a{
 }
 .ccontainer{
     display:flex;
-    padding:0px 125px;
+    padding:0px auto;
     gap: 25px;
 }
 .card{
@@ -87,6 +95,8 @@ a{
     flex-direction: column;
     flex:1;
     margin-bottom: 50px;
+    max-height: 250px;
+    max-width: 425px;
 }
 
 .bottom{
